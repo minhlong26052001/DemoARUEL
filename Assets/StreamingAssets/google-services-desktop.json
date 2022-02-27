@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494825749238",
+    "project_id": "demoar-1ce08",
+    "storage_bucket": "demoar-1ce08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494825749238:android:886c1cd5b290d24f288ad7",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.DemoAR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494825749238-ooob1j6l6e5k0qrdbmatg7fg9d88ml9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_JS57RWZm7v8r7CZnodf2a2L29O2WP7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494825749238-ooob1j6l6e5k0qrdbmatg7fg9d88ml9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

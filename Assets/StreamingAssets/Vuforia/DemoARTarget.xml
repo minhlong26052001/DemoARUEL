@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="hinhanhxebuytdemo" size="5.000000 2.546875" />
+    <ImageTarget name="hinhueleduvn23bit" size="5.000000 2.863881" />
+    <ImageTarget name="LogoITBPNG32" size="5.000000 5.000000" />
+    <ImageTarget name="LogoITBPNG-Copy" size="5.000000 5.000000" />
+    <ImageTarget name="LogoITBPNG24" size="5.000000 5.000000" />
+    <ImageTarget name="UELPNG24" size="5.000000 5.000000" />
+    <ImageTarget name="fislogo" size="5.000000 4.595405" />
+    <ImageTarget name="TrangSV" size="5.000000 7.166667" />
+  </Tracking>
+</QCARConfig>
