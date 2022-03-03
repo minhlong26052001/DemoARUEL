@@ -23,6 +23,8 @@ public class GoogleSignInDemo : MonoBehaviour
     public Text emailAfterTest;
     [SerializeField] GameObject cameraBeforeLogIn;
     [SerializeField] GameObject cameraAfterLogIn;
+    [SerializeField] GameObject anhNenBanDau;
+    [SerializeField] GameObject anhNenKhac;
     private string webClientId = "494825749238-ooob1j6l6e5k0qrdbmatg7fg9d88ml9d.apps.googleusercontent.com";
     // public System.Uri profilepic;
     private FirebaseAuth auth;
@@ -86,6 +88,8 @@ public class GoogleSignInDemo : MonoBehaviour
         thongBaoDangnhap.SetActive(false);
         cameraBeforeLogIn.SetActive(true);
         cameraAfterLogIn.SetActive(false);
+        anhNenBanDau.SetActive(false);
+        anhNenKhac.SetActive(true);
         // TatCaARObject.SetActive(false);
         // CameraDevice.Instance.SetFlashTorchMode(false);
     }
@@ -154,8 +158,11 @@ public class GoogleSignInDemo : MonoBehaviour
                 // Convert.ToInt32(tempString );
                 // Convert.ToInt64(tempString );
                 // string hourInPhoneString = System.DateTime.UtcNow.ToString("HH");
-                string hourInPhoneString = DateTime.Now.ToString("HH");
-                int hourInPhone = Convert.ToInt32(hourInPhoneString);
+
+                //đã comment từ string hourInPhoneString đến ToInt32(hourInPhoneString)
+                // string hourInPhoneString = DateTime.Now.ToString("HH");
+                // int hourInPhone = Convert.ToInt32(hourInPhoneString);
+
                 // int.TryParse(hourInPhoneString, out hourInPhone);
 
                 // string sillyMeme = "9001";
@@ -163,27 +170,30 @@ public class GoogleSignInDemo : MonoBehaviour
                 // int.TryParse(sillyMeme, out memeValue);
                 // Debug.Log(memeValue);//9001
 
+                
                 string chaoNguoiDung = "";
+                chaoNguoiDung = "Xin chào,\n";
                 // Good morning (12am-12pm)
                 // Good after noon (12pm-6pm)
                 // Good evening (6pm-10pm)
                 // Good night (10pm-12am)
-                if(0<=hourInPhone && hourInPhone<12)
-                {
-                    chaoNguoiDung = "Good morning,\n";
-                }
-                else if(12<=hourInPhone && hourInPhone<18)
-                {
-                    chaoNguoiDung = "Good afternoon,\n";
-                }
-                else if(18 <=hourInPhone && hourInPhone<22)
-                {
-                    chaoNguoiDung = "Good evening,\n";
-                }
-                else if(22<= hourInPhone && hourInPhone <= 24)
-                {
-                    chaoNguoiDung = "Good night,\n";
-                }
+                // đã comment từ goodmorning \n đến goodnight \n
+                // if(0<=hourInPhone && hourInPhone<12)
+                // {
+                //     chaoNguoiDung = "Good morning,\n";
+                // }
+                // else if(12<=hourInPhone && hourInPhone<18)
+                // {
+                //     chaoNguoiDung = "Good afternoon,\n";
+                // }
+                // else if(18 <=hourInPhone && hourInPhone<22)
+                // {
+                //     chaoNguoiDung = "Good evening,\n";
+                // }
+                // else if(22<= hourInPhone && hourInPhone <= 24)
+                // {
+                //     chaoNguoiDung = "Good night,\n";
+                // }
 
                 System.Uri avatarurl=task.Result.ImageUrl;
                 string avatarurlstring = avatarurl.ToString();

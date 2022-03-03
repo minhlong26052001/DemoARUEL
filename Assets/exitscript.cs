@@ -22,7 +22,11 @@ public class exitscript : MonoBehaviour
     }
     public void VaoGoogleDrive ()
     {
-        Application.OpenURL("https://drive.google.com/file/d/1fL_xI4mEwSlK4OzDTvMPrULVUfWLC4Zy/view?usp=sharing"); 
+        // Application.OpenURL("https://drive.google.com/file/d/1fL_xI4mEwSlK4OzDTvMPrULVUfWLC4Zy/view?usp=sharing");
+
+        // Application.OpenURL("https://bit.ly/35ePwZb");
+        // Application.OpenURL("https://drive.google.com/file/d/1WIPHwxGwsZ6wBgp14BUsJTlw7q9PrTZE/view");
+        Application.OpenURL("https://drive.google.com/file/d/1WIPHwxGwsZ6wBgp14BUsJTlw7q9PrTZE/view?usp=sharing");
     }
     public void VaoZalo ()
     {
