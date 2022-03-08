@@ -17,14 +17,17 @@ using UnityEngine.SceneManagement;
 public class GoogleSignInDemo : MonoBehaviour
 {
     public Text infoText;
+    public Text infoTextNen;
     // public Text infoTextMenu;
     [SerializeField] GameObject thongBaoDangnhap;
-    public Text emailTest;
-    public Text emailAfterTest;
+    // public Text emailTest;
+    // public Text emailAfterTest;
     [SerializeField] GameObject cameraBeforeLogIn;
     [SerializeField] GameObject cameraAfterLogIn;
-    [SerializeField] GameObject anhNenBanDau;
-    [SerializeField] GameObject anhNenKhac;
+    [SerializeField] GameObject CacItemPhuCuaStart;
+    [SerializeField] GameObject CacItemPhuCuaMenu;
+    // [SerializeField] GameObject anhNenBanDau;
+    // [SerializeField] GameObject anhNenKhac;
     private string webClientId = "494825749238-ooob1j6l6e5k0qrdbmatg7fg9d88ml9d.apps.googleusercontent.com";
     // public System.Uri profilepic;
     private FirebaseAuth auth;
@@ -84,12 +87,14 @@ public class GoogleSignInDemo : MonoBehaviour
         GoogleSignIn.DefaultInstance.SignOut();
         // PlayerPrefs.SetString("EmailDaDangNhap", "");
         // infoTextMenu.text="";
-        emailTest.text="";
+        // emailTest.text="";
         thongBaoDangnhap.SetActive(false);
         cameraBeforeLogIn.SetActive(true);
         cameraAfterLogIn.SetActive(false);
-        anhNenBanDau.SetActive(false);
-        anhNenKhac.SetActive(true);
+        CacItemPhuCuaStart.SetActive(true);
+        CacItemPhuCuaMenu.SetActive(false);
+        // anhNenBanDau.SetActive(false);
+        // anhNenKhac.SetActive(true);
         // TatCaARObject.SetActive(false);
         // CameraDevice.Instance.SetFlashTorchMode(false);
     }
@@ -141,8 +146,9 @@ public class GoogleSignInDemo : MonoBehaviour
                 thongBaoDangnhap.SetActive(false);
                 cameraBeforeLogIn.SetActive(false);
                 cameraAfterLogIn.SetActive(true);
+                CacItemPhuCuaStart.SetActive(false);
+                CacItemPhuCuaMenu.SetActive(true);
                 // TatCaARObject.SetActive(true);
-
                 
 
                 // var timeInPhone = DateTime.Now;
@@ -325,7 +331,7 @@ public class GoogleSignInDemo : MonoBehaviour
         GoogleSignIn.DefaultInstance.SignIn().ContinueWith(OnAuthenticationFinished);
     }
 
-    private void AddToInformation(string str) { infoText.text = str; }
+    private void AddToInformation(string str) { infoText.text = str; infoTextNen.text = str; }
     // private void AddToInformation(string str) { infoText.text += "\n" + str; }
 
     public void QuitTheARApp ()

@@ -20,6 +20,13 @@ public class exitscript : MonoBehaviour
     {
         Application.OpenURL("tel:+84852197589"); 
     }
+    public void VaoCHPLAY()
+    {
+        Application.OpenURL("https://play.google.com/store/search?q=lien%20minh%20toc%20chien&hl=vi&gl=VN");
+
+        // dòng dưới cũng được nhỉ?
+        // Application.OpenURL("https://play.google.com/store/apps/details?id=com.riotgames.league.wildriftvn");
+    }
     public void VaoGoogleDrive ()
     {
         // Application.OpenURL("https://drive.google.com/file/d/1fL_xI4mEwSlK4OzDTvMPrULVUfWLC4Zy/view?usp=sharing");
