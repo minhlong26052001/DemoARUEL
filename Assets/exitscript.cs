@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Vuforia;
+using UnityEngine.Events;
+using UnityEditor;
 
 public class exitscript : MonoBehaviour
 {
@@ -134,6 +136,23 @@ public class exitscript : MonoBehaviour
 	public void TakeAShot()
 	{
 		StartCoroutine ("CaptureIt");
+        // string timeStamp = System.DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss");
+		// string fileName = "Screenshot-" + timeStamp + ".png";
+        // // AndroidJavaClass jc = new AndroidJavaClass("android.os.Environment") ;
+        // // string pathName = jc.CallStatic<AndroidJavaObject>("getExternalStorageDirectory").Call<string>("DIRECTORY_DCIM");
+		// // string pathName = Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DCIM + "/";
+        // // Environment.getExternalStorageDirectory() + "/" + Environment.DIRECTORY_DCIM + "/"
+		// // string pathName = "/Bộ nhớ trong/DCIM/Screenshots/";
+		// // string pathName = "DCIM/Screenshots/";
+		// // string pathName = "/Internal storage/DCIM/Screenshots/";
+		// string pathName = "/storage/emulated/0/DCIM/Screenshot/";
+		// // string pathName = GetAndroidExternalStoragePath();
+        
+        // ScreenCapture.CaptureScreenshot(pathName+fileName);
+        // // ScreenCapture.CaptureScreenshot(pathName+"/Camera/"+fileName);
+        // // Debug.Log(pathName);
+
+        
 	}
 
 	IEnumerator CaptureIt()
@@ -142,11 +161,66 @@ public class exitscript : MonoBehaviour
 		string timeStamp = System.DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss");
 		string fileName = "Screenshot-" + timeStamp + ".png";
 		// string pathToSave = Application.persistentDataPath+"/"+fileName;
-		string pathToSave = fileName;
-		ScreenCapture.CaptureScreenshot(pathToSave);
+        string GALLERY_PATH = "/../../../../DCIM/Camera";
+		// string pathToSave = GALLERY_PATH;
+
+        // if (!System.IO.Directory.Exists(Application.persistentDataPath + GALLERY_PATH))
+            // System.IO.Directory.CreateDirectory(Application.persistentDataPath + GALLERY_PATH);
+            
+		string pathToSave = Application.persistentDataPath + GALLERY_PATH;
+		ScreenCapture.CaptureScreenshot(pathToSave + "/" + fileName);
+
+		// ScreenCapture.CaptureScreenshot(Application.persistentDataPath + "/LastImage.png");
+        // System.IO.File.Copy(Application.persistentDataPath + "/LastImage.png", Application.persistentDataPath + GALLERY_PATH + "/" + fileName);
+
+        // ShowToast("Ảnh đã được lưu thành công!");
 		yield return new WaitForEndOfFrame();
 		Instantiate (blink, new Vector2(0f, 0f), Quaternion.identity);
+        // RefreshGallery(Application.persistentDataPath + GALLERY_PATH + "/" + fileName);
+
+
+        // System.DateTime now = System.DateTime.Now;
+        // string fileName = "Video_" + now.Year + "_" + now.Month + "_" + now.Day + "_" + now.Hour + "_" + now.Minute + "_" + now.Second + ".mp4";
+        // while (!System.IO.File.Exists(Application.persistentDataPath + "/" + VIDEO_NAME + ".mp4"))
+        //     yield return null;
+        // if (!System.IO.Directory.Exists(Application.persistentDataPath + GALLERY_PATH))
+        //     System.IO.Directory.CreateDirectory(Application.persistentDataPath + GALLERY_PATH);
+        // System.IO.File.Copy(Application.persistentDataPath + "/" + VIDEO_NAME + ".mp4", Application.persistentDataPath + GALLERY_PATH + "/" + fileName);
+        // ShowToast("Video is saved to Gallery");
+        // yield return null;
+        // RefreshGallery(Application.persistentDataPath + GALLERY_PATH + "/" + fileName);
+
+        // Debug.Log(pathToSave);
+        // FileUtil.MoveFileOrDirectory(pathToSave, "/storage/emulated/0/DCIM/Screenshots/"+fileName);
+        // MoveSomething(pathToSave, "/storage/emulated/0/DCIM/Screenshots/"+fileName);
 	}
-    
-    
+    // public static void ShowToast(string message)
+    // {
+    //     AndroidJavaObject currentActivity = new AndroidJavaClass("com.unity3d.player.UnityPlayer").GetStatic<AndroidJavaObject>("currentActivity");
+    //     currentActivity.Call("runOnUiThread", new AndroidJavaRunnable(() =>
+    //     {
+    //         new AndroidJavaClass("android.widget.Toast").CallStatic<AndroidJavaObject>("makeText", currentActivity.Call<AndroidJavaObject>("getApplicationContext"), new AndroidJavaObject("java.lang.String", message), 0).Call("show");
+    //     }));
+    // }
+    // public static void RefreshGallery(string path)
+    // {
+    //     using(AndroidJavaClass javaClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer")){
+    //     javaClass.GetStatic<AndroidJavaObject>("currentActivity").Call("refreshGallery", path);
+    // }
+    // [MenuItem("Example/Move Something")]
+    // static void MoveSomething(string a, string b)
+    // {
+    //     FileUtil.MoveFileOrDirectory(a, b);
+    // }
+    // private string GetAndroidExternalStoragePath()
+    // {
+    //     if (Application.platform != RuntimePlatform.Android)
+    //         return Application.persistentDataPath;
+
+    //     var jc = new AndroidJavaClass("android.os.Environment");
+    //     var path = jc.CallStatic<AndroidJavaObject>("getExternalStoragePublicDirectory", 
+    //         jc.GetStatic<string>("DIRECTORY_DCIM"))
+    //         .Call<string>("getAbsolutePath");
+    //     return path;
+    // }
 }
