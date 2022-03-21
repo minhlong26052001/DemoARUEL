@@ -52,8 +52,9 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-# *.apk
+*.apk
 *.unitypackage
+*.aab
 
 # Crashlytics generated file
 crashlytics-build.properties
