@@ -1,0 +1,3 @@
+Simply drag the bus from the prefabs folder into your scene. See the demo scene as an example.
+
+Need help? Contact me at https://lb3d.co/contact/

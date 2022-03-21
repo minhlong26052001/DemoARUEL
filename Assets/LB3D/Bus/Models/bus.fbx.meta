@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: 2fc746e8dc2e5ca41aebec15a370286c
+timeCreated: 1510396474
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bus.001
+    100004: Windows
+    100006: Armature
+    100008: Bone
+    100010: Bone.001
+    100012: Bone.001_end
+    100014: Bone.002
+    100016: Bone.002_end
+    100018: Bone.003
+    100020: Bone.003_end
+    100022: Bone.004
+    100024: Bone.004_end
+    100026: Bone.005
+    100028: Bone.005_end
+    100030: Bone.006
+    100032: Bone.006_end
+    100034: Bus
+    100036: Door_Left
+    100038: Door_Right
+    100040: Lamp.001
+    100042: Wheel_1
+    100044: Wheel_2
+    100046: Wheel_3
+    100048: Window_Door_Left
+    100050: Window_Door_Right
+    100052: Wheel_4
+    100054: Door_Left 1
+    100056: Door_Left_end
+    100058: Door_Right 1
+    100060: Door_Right_end
+    100062: Root
+    100064: Steering_Wheel
+    100066: Steering_Wheel 1
+    100068: Steering_Wheel_end
+    100070: Stop_Sign_1
+    100072: Stop_Sign_1_end
+    100074: Stop_Sign_2
+    100076: Stop_Sign_2_end
+    100078: Stop_Sign_3
+    100080: Stop_Sign_3_end
+    100082: Stop_Sign_4
+    100084: Stop_Sign_4_end
+    100086: Stop_Signs
+    100088: Wheel_1 1
+    100090: Wheel_1_end
+    100092: Wheel_2 1
+    100094: Wheel_2_end
+    100096: Wheel_3 1
+    100098: Wheel_3_end
+    100100: Wheel_4 1
+    100102: Wheel_4_end
+    400000: //RootNode
+    400002: Bus.001
+    400004: Windows
+    400006: Armature
+    400008: Bone
+    400010: Bone.001
+    400012: Bone.001_end
+    400014: Bone.002
+    400016: Bone.002_end
+    400018: Bone.003
+    400020: Bone.003_end
+    400022: Bone.004
+    400024: Bone.004_end
+    400026: Bone.005
+    400028: Bone.005_end
+    400030: Bone.006
+    400032: Bone.006_end
+    400034: Bus
+    400036: Door_Left
+    400038: Door_Right
+    400040: Lamp.001
+    400042: Wheel_1
+    400044: Wheel_2
+    400046: Wheel_3
+    400048: Window_Door_Left
+    400050: Window_Door_Right
+    400052: Wheel_4
+    400054: Door_Left 1
+    400056: Door_Left_end
+    400058: Door_Right 1
+    400060: Door_Right_end
+    400062: Root
+    400064: Steering_Wheel
+    400066: Steering_Wheel 1
+    400068: Steering_Wheel_end
+    400070: Stop_Sign_1
+    400072: Stop_Sign_1_end
+    400074: Stop_Sign_2
+    400076: Stop_Sign_2_end
+    400078: Stop_Sign_3
+    400080: Stop_Sign_3_end
+    400082: Stop_Sign_4
+    400084: Stop_Sign_4_end
+    400086: Stop_Signs
+    400088: Wheel_1 1
+    400090: Wheel_1_end
+    400092: Wheel_2 1
+    400094: Wheel_2_end
+    400096: Wheel_3 1
+    400098: Wheel_3_end
+    400100: Wheel_4 1
+    400102: Wheel_4_end
+    2300000: //RootNode
+    2300002: Bus.001
+    2300004: Windows
+    2300006: Bus
+    2300008: Door_Left
+    2300010: Door_Right
+    2300012: Wheel_1
+    2300014: Wheel_2
+    2300016: Wheel_3
+    2300018: Window_Door_Left
+    2300020: Window_Door_Right
+    2300022: Wheel_4
+    2300024: Steering_Wheel
+    2300026: Stop_Signs
+    2300028: Stop_Sign_1
+    2300030: Stop_Sign_2
+    2300032: Stop_Sign_3
+    2300034: Stop_Sign_4
+    3300000: //RootNode
+    3300002: Bus.001
+    3300004: Windows
+    3300006: Bus
+    3300008: Door_Left
+    3300010: Door_Right
+    3300012: Wheel_1
+    3300014: Wheel_2
+    3300016: Wheel_3
+    3300018: Window_Door_Left
+    3300020: Window_Door_Right
+    3300022: Wheel_4
+    3300024: Steering_Wheel
+    3300026: Stop_Signs
+    3300028: Stop_Sign_1
+    3300030: Stop_Sign_2
+    3300032: Stop_Sign_3
+    3300034: Stop_Sign_4
+    4300000: Bus
+    4300002: Bus.001
+    4300004: Windows
+    4300006: Wheel_2
+    4300008: Wheel_1
+    4300010: Wheel_3
+    4300012: Door_Left
+    4300014: Window_Door_Left
+    4300016: Door_Right
+    4300018: Window_Door_Right
+    4300020: Wheel_4
+    4300022: Steering_Wheel
+    4300024: Stop_Signs
+    4300026: Stop_Sign_2
+    4300028: Stop_Sign_1
+    4300030: Stop_Sign_4
+    4300032: Stop_Sign_3
+    10800000: Lamp.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bus
+    second: {fileID: 2100000, guid: b68c4971acb6f9545884d4792aef7c2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: ce40c484ef3768b459728c69275cfcbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: c29fb07dc363fe5429deb33a4848f881, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: b735d95c43ca55c4380656aa375808dc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 45
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
