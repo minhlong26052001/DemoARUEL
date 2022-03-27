@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: ARFmqrz/////AAABmX2phBxgAUFoqqcSGM2G7j5tLSe5yTo9JNSiEyqoofNEiDsbQXJuX7zefXM7GzZ4iR3QbchwdrB94en597dH1vsZO6ujkt5pi9d+yk97be//6xZEMdeqbxrisEvbnNIz9i69/mUFyXvyYp6LrFvxgnGRqEWTa0lK2DfVuebTQHuO2O9NTUIYpegx1VgJgk16C0+fpaEx5JQ2i0rdB/btqdUUQZrvA0ac1JsKcVAdxqnqzXaIeQ0lbONlWUUOeAEnyMN660Y6mE0w0otQ8W1CvuRBBJC7URn7AT85/EvNTZD3xFwWNfJiR/AYD8e+u797Wj6rshoI2xeGFgsvpU/7ba2rZ6dVceg4ZNUvmw+B5+Ye
-    ufoLicenseKey: QWU5R0RUei8vLy8vQUFBQUtIeWVqYTVWUjBoR28wVEZscWNRckRWVDFVRUxBUXZXaDlQRjJuemh3a2Erd2poeDBPYk5vME1OM0VWWksydVlXb0czRktpS2I0WHBlRnhRMFJyUEkwWGFzNjZUZkVNT1JocmpHcTBVTSt6aEREaThUQzVPdndhOEQ3aEFOc3lWQitidVZTaU90U1VhUi9IaTZTaXVYd1B3cUxoM0NEelZzMXFVRGtBUnFLV3RrMEJHN0RhQ0xCYkJ5OGJRYkVncjRPQTNjbkZPbWxkMzlNSi9sLzlWb1Fyem9ob0sxdThSdGJYY3V3eCtjK2lJRndKY3F2ekJzbjg2U0p1TmwzOFdxaTBzVXJMS1ByQjNZMjhETzk3bFVjZWJ1YTJwVFc0YitnZGpWZHh6Q3gxU1hEZ0ZISHpRODdyOUhhYThmZHZWSW1pZFpKZURYSmFMZ3hvdFdnaUtTZ2JxTDg5bWhGenRqeTZ6TUFCZjJOeWU=
+    ufoLicenseKey: QVhiM0Y1Ly8vLy8vQUFBQUtPbnFIeHJFSGs1N3VrMlg4U050eVBzK2pkOFZxMDhrazlwYjBsYS9aZUIxQlV1ckZWcWt0ZllSQWpnT2tIRlY2VzdOMDRTRjNYRUhmbTF5L1BnYlB4eWdHWEF6RUNheXowc3dyNVNYa2ozdERuRjhka1FpOHRscHdkMDcrcEJEY1FjTjNJcUM1bEgwOTYzQkdZdjRsQStRb0hSQU9nRGthelp5TlY0WHVwWU9EaE05NWw5bXAzbnBDMjM5MWZBWXBFdEdiL2loTDNab3N4b25ZblhjK1JtSS9wLzRoTDIwVGhmTXR6WFJNYkpUTXZLZzJoQ0N0TEJXNEptZ0pSOUtSdStzQWM3QjVNOWFFMGVHQ1dUT1VRSUUweEpiZC9ZL2cvS29iNDhBRXdQOGFwbWR5NmRWU0FHU2psVzRZY2FEU2Zud3J1ZHhucVNmSUZiajNTUnIzM0lKVlFIaW1rL0oyOGNFeDdyekcySXg=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
@@ -35,9 +35,9 @@ MonoBehaviour:
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoStartTracker: 0
+    autoStartTracker: 1
     arcoreRequirement: 1
-    autoImportArcore: 0
+    autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
     mSequencePath: 

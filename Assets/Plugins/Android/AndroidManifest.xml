@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest 
+xmlns:tools="http://schemas.android.com/tools"
   xmlns:android="http://schemas.android.com/apk/res/android" package="com.setik.androidutils">
   <application android:icon="@drawable/app_icon" android:label="@string/app_name">
     <activity android:name="com.setik.kampertee.AndroidUtils" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
@@ -9,6 +10,7 @@
       </intent-filter>
     </activity>
     <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true" />
+    <meta-data tools:replace="android:value" android:name="com.google.ar.core.min_apk_version" android:value="19" />
   </application>
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 </manifest>

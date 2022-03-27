@@ -1,3 +1,31 @@
+# Version 1.2.169 - Jan 20, 2021
+* General - Fixes #425 - Change to save `GvhProjectSettings.xml` without
+  Unicode byte order mark (BoM).
+* Android Resolver - Remove reference to `jcenter()`
+* iOS Resolver - Force setting `LANG` when executing Cocoapods in shell mode on
+  Mac.
+
+# Version 1.2.168 - Dec 9, 2021
+* All - Fixes #472 by removing the use of `System.Diagnostics.Debug.Assert`
+* All - Fixed #477 by properly enabling EDM4U libraries for Unity 2021.2+ when
+  the package is installed through `.tgz`
+
+# Version 1.2.167 - Oct 6, 2021
+* All - Moved versioned `.dll` in EDM4U to a versioned folder and remove their
+  version postfix in their filename. For instance, `IOSResolver.dll` will be
+  placed at `ExternalDependencyManager/Editor/1.2.167/Google.IOSResolver.dll`.
+* Android Resolver - Fixed #243 by only using the highest version in
+  `mainTemplate.gradle` when duplicated dependencies are presented.
+* Android Resolver - Added supports to x86_64 to ABI list for Android apps on
+  Chrome OS.
+
+# Version 1.2.166 - Jun 30, 2021
+* All - Fixed #440 and fixed #447 by specifying the parameter type while calling
+  `GetApplicationIdentifier()` Unity API using reflection, due to a new
+  overloaded method introduced in Unity 2021.2.
+* Android Resolver - Fixed #442 by patching `Dependency.IsGreater()` when the
+  version strings end '+'.
+
 # Version 1.2.165 - Apr 28, 2021
 ## Bug Fixes
 * Version Handler - Fixed #431 by replacing the use of `HttpUtility.UrlEncode()`

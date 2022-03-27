@@ -2,6 +2,8 @@
   <packages>
     <package>com.google.android.gms:play-services-auth:16+</package>
     <package>com.google.android.gms:play-services-base:17.6.0</package>
+    <package>com.google.android.play:core:1.10.3</package>
+    <package>com.google.android.play:integrity:1.0.0</package>
     <package>com.google.firebase:firebase-analytics:18.0.3</package>
     <package>com.google.firebase:firebase-app-unity:7.2.0</package>
     <package>com.google.firebase:firebase-auth:20.0.4</package>
@@ -43,7 +45,7 @@
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-17.4.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-16.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-base-17.6.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.gms.play-services-basement-17.6.0.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-basement-18.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-measurement-18.0.3.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-measurement-api-18.0.3.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-measurement-base-18.0.3.aar</file>
@@ -52,7 +54,9 @@
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-measurement-sdk-api-18.0.3.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-safetynet-17.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-stats-17.0.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-17.2.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-tasks-18.0.1.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.play.core-1.10.3.aar</file>
+    <file>Assets/Plugins/Android/com.google.android.play.integrity-1.0.0.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-analytics-18.0.3.aar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-annotations-16.0.0.jar</file>
     <file>Assets/Plugins/Android/com.google.firebase.firebase-app-unity-7.2.0.aar</file>
@@ -67,7 +71,7 @@
     <file>Assets/Plugins/Android/com.google.signin.google-signin-support-1.0.4.aar</file>
   </files>
   <settings>
-    <setting name="androidAbis" value="armeabi-v7a" />
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
     <setting name="bundleId" value="com.DefaultCompany.DemoAR" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />

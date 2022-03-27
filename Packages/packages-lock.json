@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "be.khepri.play.assetdelivery.addressables": {
+      "version": "https://github.com/thanh-nguyen-kim/be.khepri.play.assetdelivery.addressables.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.addressables": "1.8.4"
+      },
+      "hash": "be2237ea961dbbbfaa0df967e6adea0dca2aa961"
+    },
     "com.ptc.vuforia.engine": {
       "version": "file:com.ptc.vuforia.engine-10.4.4.tgz",
       "depth": 0,
@@ -7,6 +16,18 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0"
       }
+    },
+    "com.unity.addressables": {
+      "version": "1.8.4",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.scriptablebuildpipeline": "1.7.3",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestassetbundle": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
       "version": "1.15.7",
@@ -53,6 +74,13 @@
     "com.unity.nuget.newtonsoft-json": {
       "version": "2.0.0",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.scriptablebuildpipeline": {
+      "version": "1.7.3",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

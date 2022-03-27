@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 3477413813
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b6ff07b68caa851b6d7ac554b0479169
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f64856a3d606b613608cbf22df470c60
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GooglePlayPlugins/com.google.play.assetdelivery/Samples/AssetDeliveryDemo/Models/Gamepad.fbx
+Dependencies: []

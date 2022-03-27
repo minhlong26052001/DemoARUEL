@@ -1,5 +1,6 @@
 {
-    "dependencies": {
+  "dependencies": {
+    "be.khepri.play.assetdelivery.addressables": "https://github.com/thanh-nguyen-kim/be.khepri.play.assetdelivery.addressables.git",
     "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.4.4.tgz",
     "com.unity.collab-proxy": "1.15.7",
     "com.unity.ide.rider": "2.0.7",
