@@ -157,18 +157,18 @@ public class exitscript : MonoBehaviour
 
 	IEnumerator CaptureIt()
 	{
-		// string timeStamp = System.DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss");
 		string timeStamp = System.DateTime.Now.ToString("dd-MM-yyyy-HH-mm-ss");
-		string fileName = "Screenshot-" + timeStamp + ".png";
-		// string pathToSave = Application.persistentDataPath+"/"+fileName;
-        string GALLERY_PATH = "/../../../../DCIM/Camera";
+		// string fileName = "Screenshot-" + timeStamp + ".png";
+		// string pathToSave = Application.persistentDataPath;
 		// string pathToSave = GALLERY_PATH;
+		// string pathToSave = Application.persistentDataPath+"/"+fileName;
+        // string GALLERY_PATH = "/../../../../DCIM/Camera";
 
         // if (!System.IO.Directory.Exists(Application.persistentDataPath + GALLERY_PATH))
             // System.IO.Directory.CreateDirectory(Application.persistentDataPath + GALLERY_PATH);
             
-		string pathToSave = Application.persistentDataPath + GALLERY_PATH;
-		ScreenCapture.CaptureScreenshot(pathToSave + "/" + fileName);
+		// ScreenCapture.CaptureScreenshot(pathToSave + "/" + fileName);
+		ScreenCapture.CaptureScreenshot("Screenshot-" + timeStamp + ".png");
 
 		// ScreenCapture.CaptureScreenshot(Application.persistentDataPath + "/LastImage.png");
         // System.IO.File.Copy(Application.persistentDataPath + "/LastImage.png", Application.persistentDataPath + GALLERY_PATH + "/" + fileName);
