@@ -82,6 +82,18 @@ public class exitscript : MonoBehaviour
     {
         Application.OpenURL("https://www.uel.edu.vn"); 
     }
+    public void VaoXemVideoThuVien ()
+    {
+        Application.OpenURL("https://youtu.be/O-8RUfVkmLU"); 
+    }
+    public void VaoXemTourUEL ()
+    {
+        Application.OpenURL("https://youtu.be/TO8HFp5bbso"); 
+    }
+    public void VaoXemLienChiHoi ()
+    {
+        Application.OpenURL("https://www.facebook.com/LCH.HTTT.UEL/videos/568011667818280"); 
+    }
     public void BatFlashLight ()
     {
         CameraDevice.Instance.SetFlashTorchMode(true);
