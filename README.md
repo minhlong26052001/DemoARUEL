@@ -9,4 +9,4 @@ Enhancing User Experience Using Augmented Reality: An Empirical Study on Student
 Economics and Law - Vietnam National University, Ho Chi Minh City)
 <br>
 <br>
-Keywords: AR, Augmented Reality, VNU-HCM, VNUHCM, VNUHCM-UEL, VNUHCM-University of Economics and Law, UEL, Vietnam National University Ho Chi Minh City, ĐHQG, ĐHQG TP.HCM, ĐHQG TPHCM, ĐHQGTPHCM, ĐHQGHCM, ĐHQG-HCM, ĐHQG TP. HCM
+Keywords: AR, Augmented Reality, VNU-HCM, VNUHCM, VNUHCM-UEL, VNUHCM-University of Economics and Law, UEL, Vietnam National University Ho Chi Minh City, ĐHQG, ĐHQG TP.HCM, ĐHQG TPHCM, ĐHQGTPHCM, ĐHQGHCM, ĐHQG-HCM, ĐHQG TP. HCM, Đại học Quốc gia TP.HCM
