@@ -141,8 +141,8 @@ public class GoogleSignInDemo : MonoBehaviour
         }
         else
         {
-            if (task.Result.Email.Contains("@st.uel.edu.vn") == true || task.Result.Email.Contains("@uel.edu.vn") == true)
-            {
+            // if (task.Result.Email.Contains("@st.uel.edu.vn") == true || task.Result.Email.Contains("@uel.edu.vn") == true)
+            // {
                 thongBaoDangnhap.SetActive(false);
                 cameraBeforeLogIn.SetActive(false);
                 cameraAfterLogIn.SetActive(true);
@@ -209,7 +209,8 @@ public class GoogleSignInDemo : MonoBehaviour
                 {
                     AddToInformation(chaoNguoiDung + task.Result.FamilyName + " " + task.Result.GivenName);
                 }
-                else if(task.Result.Email.Contains("@uel.edu.vn") == true)
+                // else if(task.Result.Email.Contains("@uel.edu.vn") == true)
+                else
                 {
                     AddToInformation(chaoNguoiDung + task.Result.DisplayName + "!");
                 }
@@ -229,14 +230,14 @@ public class GoogleSignInDemo : MonoBehaviour
                 // }
 
 
-            }
-            else
-            {
-                GoogleSignIn.DefaultInstance.SignOut();
-                // infoTextMenu.text="Chỉ có email UEL cấp mới đăng nhập được!";
-                thongBaoDangnhap.SetActive(true);
-                // PlayerPrefs.SetString("EmailDaDangNhap", "");
-            }
+            // }
+            // else
+            // {
+            //     GoogleSignIn.DefaultInstance.SignOut();
+            //     // infoTextMenu.text="Chỉ có email UEL cấp mới đăng nhập được!";
+            //     thongBaoDangnhap.SetActive(true);
+            //     // PlayerPrefs.SetString("EmailDaDangNhap", "");
+            // }
         }
     }
 
