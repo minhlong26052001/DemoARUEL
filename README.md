@@ -14,4 +14,11 @@ Keywords: AR, Augmented Reality, VNU-HCM, VNUHCM, VNUHCM-UEL, VNUHCM-University 
 <br>
 Bạn có thể quét qua thử lần lượt 4 bức hình sau để trải nghiệm:
 <br>
-<img style="width:25px" src="https://static.ybox.vn/2021/10/4/1634153105636-dkhethongthongtin-z21440oty-avatar.png">
+<img style="width:300px" src="https://cca.uel.edu.vn/Resources/Images/SubDomain/cca/UEL%20Brand%20Toolkit/UEL%20-%20logo%20official.png">
+<br>
+<img style="width:300px" src="https://static.ybox.vn/2021/10/4/1634153105636-dkhethongthongtin-z21440oty-avatar.png">
+<br>
+<img style="width:300px" src="https://www.uel.edu.vn/Resources/imagesPortlet/f8c29ff1-ab51-4d71-a17f-087fe5af9db3/Artboard%202.png">
+<br>
+<img style="width:300px" src="https://busmediavn.com/wp-content/uploads/2019/08/lo-trinh-bus-33-tphcm-2.jpg">
+
