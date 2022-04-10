@@ -1,0 +1,2 @@
+vào unity, tạo project 3D mới, khi tạo xong chỉ cần tắt (thoát) project là xong, không được làm gì trên đó.
+sau đó copy file từ project cũ bị lỗi qua project mới tạo, nhưng ko copy file "Logs" (file .git, APK AAB thì tùy). sau đó nhập pass userkeystore, tick mấy dấu kia, có thể nó sẽ chạy android dependencies. xong là ok!
