@@ -1,5 +1,5 @@
 # DemoARUEL
-Try it now (Currently available in Android): https://play.google.com/store/apps/details?id=com.DefaultCompany.DemoAR
+Try it now (Currently available in Android): <a href="https://play.google.com/store/apps/details?id=com.DefaultCompany.MyProjectCameraDemohihi">here</a>.
 <br>
 <br>
 Enhancing User Experience Using Augmented Reality: An Empirical Study on Student Handbook
