@@ -2,7 +2,6 @@
 Try it now (Currently available in Android): <a href="https://play.google.com/store/apps/details?id=com.DefaultCompany.MyProjectCameraDemohihi">here</a>.
 <br>
 <br>
-<br>
 Enhancing User Experience Using Augmented Reality: An Empirical Study on Student Handbook
 <br>
 <br>
